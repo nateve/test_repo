@@ -1,0 +1,10 @@
+#!/bin/bash
+
+date_formatted=$(date +%m_%d_%y-%H.%M.%S)
+
+#mkdir ./backup
+rm -r ./backup/*
+
+echo "This is the date an time: " $date_formatted
+
+cp -iv $1 $2.$date_formatted
