@@ -7,4 +7,4 @@ natalie = 'cool'
 idk = 123
 
 
-ok = 'b33r30'
+ok = 'b33r30 '
